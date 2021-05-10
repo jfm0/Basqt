@@ -1,0 +1,2 @@
+# Basqt
+Basic Qt application
