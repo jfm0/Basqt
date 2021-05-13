@@ -1,0 +1,12 @@
+[submodule "qt5"]
+	path = qt5
+	url = https://github.com/jfm0/qt5.git
+	branch = 5.15.2
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/jfm0/openssl.git
+	branch = OpenSSL_1_1_1-stable
+[submodule "angle"]
+	path = angle
+	url = https://github.com/jfm0/angle.git
+	branch = master
