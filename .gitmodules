@@ -10,3 +10,7 @@
 	path = angle
 	url = https://github.com/jfm0/angle.git
 	branch = master
+[submodule "SDL-mirror"]
+	path = SDL-mirror
+	url = https://github.com/jfm0/SDL-mirror.git
+	branch = uPyEsp
