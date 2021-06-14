@@ -18,6 +18,8 @@ set PATH=%PATH%;C:\msys64\usr\bin
 
 REM Uncomment the below line when using a git checkout of the source repository
 SET PATH=%QT_ROOT%\qtrepotools\bin;%PATH%
+REM This path contains the compiled qt tools
+SET PATH=%PATH%;%mypath%\build\qt5\qtbase\bin
 
 
 REM Contrary to earlier recommendations, do NOT set QMAKESPEC.
@@ -59,7 +61,7 @@ REM ######################## QT ################################
 
 REM $ mkdir %BUILD_QT_DIR%
 REM $ pushd %BUILD_QT_DIR%
-REM $ %mypath%\qt5\configure -developer-build -opensource -nomake examples -nomake tests -confirm-license -openssl-runtime OPENSSL_PREFIX="%INSTALL_OPENSSL_DIR%"
+REM $ %mypath%\qt5\configure -developer-build -opensource -nomake examples -nomake tests -confirm-license -openssl-runtime OPENSSL_PREFIX="%INSTALL_OPENSSL_DIR%" -native-win32-bluetooth
 REM $ nmake
 
 
