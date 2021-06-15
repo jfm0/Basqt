@@ -20,6 +20,8 @@ git submodule add -b 5.15.2 https://github.com/jfm0/qt5.git qt5
 git submodule add -b OpenSSL_1_1_1-stable https://github.com/jfm0/openssl.git openssl
 git submodule add -b master https://github.com/jfm0/angle.git angle
 git submodule add -b uPyEsp https://github.com/jfm0/SDL-mirror.git
+git submodule add -b v1.38.x https://github.com/jfm0/grpc
+
 ```
 
 Modifications:

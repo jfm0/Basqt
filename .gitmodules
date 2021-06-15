@@ -14,3 +14,7 @@
 	path = SDL-mirror
 	url = https://github.com/jfm0/SDL-mirror.git
 	branch = uPyEsp
+[submodule "grpc"]
+	path = grpc
+	url = https://github.com/jfm0/grpc
+	branch = v1.38.x
